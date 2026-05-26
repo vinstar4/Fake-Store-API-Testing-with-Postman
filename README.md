@@ -90,7 +90,7 @@ The attached HTML Extra report contains:
 This repository was created to showcase practical API testing skills using Postman, Newman, and automated report generation.
 
 ## Note
-* The base URL `https://fakestoreapi.com/` is configured as a **collection variable** for easier execution and maintenance. It can also be configured as a **global variable** in Postman. To use global variables with Newman, export the globals JSON file and pass it during execution:
+* The base URL `https://fakestoreapi.com/` is configured as a **collection variable** for easier execution and maintenance. It can also be configured as a **global variable**/**environment variable** in Postman. To use global variables with Newman, export the globals JSON file and pass it during execution:
 
 ```bash
 newman run Products.postman_collection.json -g postman_globals.json -r htmlextra
